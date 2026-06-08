@@ -81,9 +81,9 @@ function Header() {
       <header className="container py-5">
         <div className="row align-items-center min-vh-75">
           <div className="col-lg-6">
-            <span className="badge mb-3 fs-6" style={{ backgroundColor: COLOR.SECONDARY, color: "#fff" }}>
+            {/* <span className="badge mb-3 fs-6" style={{ backgroundColor: COLOR.SECONDARY, color: "#fff" }}>
               Professional Painting Services
-            </span>
+            </span> */}
 
             <h1
               className="display-2 fw-bold mb-4"
