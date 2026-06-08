@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import COLOR from "../../constants/color";
 import {
   MapPin,
@@ -20,14 +20,14 @@ function Contact() {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     console.log(formData);
     alert("Thank you! We will contact you shortly.");
@@ -193,7 +193,7 @@ function Contact() {
                       </label>
                       <textarea
                         name="message"
-                        rows="5"
+                        rows={5}
                         className="form-control"
                         placeholder="Tell us about your project..."
                         value={formData.message}

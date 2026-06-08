@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import COLOR from "../../constants/color";
 import { MapPin, Eye, ArrowRight } from "lucide-react";
 import '../assets/project.css'

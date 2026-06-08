@@ -1,5 +1,5 @@
-import {Routes, Route} from 'react-router-dom'
-import NotFound from './pages/notfound'
+// import {Routes, Route} from 'react-router-dom'
+// import NotFound from './pages/notfound'
 import Services from './pages/services'
 import Header from './components/header'
 import Project from './pages/project'
@@ -17,9 +17,10 @@ function App() {
       <About />
       <Contact />
       <Footer />
-      <Routes>
+      {/* <Routes>
+
       
-      </Routes>
+      </Routes> */}
     </>
   )
 }
