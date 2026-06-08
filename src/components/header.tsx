@@ -42,7 +42,7 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto align-items-lg-center">
               <li className="nav-item">
-                <a className="nav-link" href="#header">
+                <a className="nav-link" href="#">
                   Home
                 </a>
               </li>
@@ -66,9 +66,11 @@ function Header() {
               </li>
 
               <li className="nav-item ms-lg-3">
+                <a className="nav-link" href="tel:+233592132002">
                 <button className="btn btn-primary" style={{ backgroundColor: COLOR.PRIMARY, borderColor: COLOR.PRIMARY }}>
-                  Contact Us
+                  Call Us
                 </button>
+                </a>
               </li>
             </ul>
           </div>
@@ -97,13 +99,16 @@ function Header() {
             </p>
 
             <div className="d-flex flex-wrap gap-3">
+                <a href="#contact">
               <button className="btn btn-primary btn-lg" style={{ backgroundColor: COLOR.SECONDARY, borderColor: COLOR.SECONDARY }}>
                 Get In Touch
               </button>
-
-              <button className="btn btn-outline-secondary btn-lg" style={{ borderColor: COLOR.PRIMARY, color: COLOR.PRIMARY }}>
+              </a>
+              <a href="#services">
+              <button className="btn btn-lg" style={{ borderColor: COLOR.PRIMARY, color: COLOR.PRIMARY }}>
                 View Our Work
               </button>
+                </a>
             </div>
           </div>
 

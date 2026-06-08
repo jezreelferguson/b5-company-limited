@@ -66,7 +66,7 @@ function Contact() {
 
                 <div className="mb-4">
                   <h6 className="fw-bold d-flex align-items-center gap-2">
-                    <MapPin size={18} /> Address
+                    <MapPin size={18} color={COLOR.PRIMARY} /> Address
                   </h6>
                   <p className="text-muted mb-0">
                     Kumasi, Ahenema Kokoben
@@ -75,7 +75,7 @@ function Contact() {
 
                 <div className="mb-4">
                   <h6 className="fw-bold d-flex align-items-center gap-2">
-                    <Phone size={18} /> Phone
+                    <Phone size={18} color={COLOR.PRIMARY} /> Phone
                   </h6>
                   <a
                     href="tel:+233592132002"
@@ -87,7 +87,7 @@ function Contact() {
 
                 <div className="mb-4">
                   <h6 className="fw-bold d-flex align-items-center gap-2">
-                    <Mail size={18} /> Email
+                    <Mail size={18} color={COLOR.PRIMARY} /> Email
                   </h6>
                   <a
                     href="mailto:b5companylimited1@gmail.com"
@@ -99,7 +99,7 @@ function Contact() {
 
                 <div>
                   <h6 className="fw-bold d-flex align-items-center gap-2">
-                    <Clock size={18} /> Working Hours
+                    <Clock size={18}  color={COLOR.PRIMARY}/> Working Hours
                   </h6>
                   <p className="text-muted mb-0">
                     Monday - Saturday <br />

@@ -25,7 +25,7 @@ function Footer() {
               B5 Painting Company Limited
             </h4>
 
-            <p className="text-light-emphasis">
+            <p className="text-light">
               Delivering professional painting and finishing services for
               residential, commercial, and industrial properties with
               quality, precision, and excellence.
@@ -63,7 +63,7 @@ function Footer() {
               <PaintBucket size={18} /> Our Services
             </h5>
 
-            <ul className="list-unstyled text-light-emphasis">
+            <ul className="list-unstyled text-light">
               <li>House Painting</li>
               <li>Room Painting</li>
               <li>Roof Painting</li>
@@ -104,7 +104,7 @@ function Footer() {
         <hr className="my-4 opacity-25" />
 
         {/* Bottom */}
-        <div className="text-center small text-light-emphasis">
+        <div className="text-center small text-light">
           © {new Date().getFullYear()} B5 Painting Company Limited. All Rights Reserved.
         </div>
       </div>
